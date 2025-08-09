@@ -4,8 +4,16 @@ module.exports = {
     "./index.html",
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
-  theme: {
-    extend: {},
+    theme: {
+    extend:{
+      colors: {
+        'primary-background': '#F8F5F0',
+        'dark-text': '#1A1A1A',
+        'footer-background': '#F8F5F0',
+        'footer-text-light': '#000000',
+        'candy-red': '#D21404',
+      },
+    },
   },
   plugins: [require("daisyui")],
   daisyui: {
