@@ -1,0 +1,62 @@
+
+export const sampleProducts = [
+  {
+    id: 1,
+    name: "Men's Classic Tee",
+    price: "₹799",
+    imageUrl: "/men1.jpg",
+    category: "men",
+    isFeatured: true,
+  },
+  {
+    id: 2,
+    name: "Women's Floral Dress",
+    price: "₹1,499",
+    imageUrl: "/slide1.webp",
+    category: "women",
+    isFeatured: true,
+  },
+  {
+    id: 3,
+    name: "Kid's Graphic Hoodie",
+    price: "₹999",
+    imageUrl: "/placeholder.jpg",
+    category: "kids",
+  },
+  {
+    id: 4,
+    name: "Okkio Selects Denim",
+    price: "₹2,299",
+    imageUrl: "/slide2.webp",
+    category: "okkio-selects",
+    isFeatured: true,
+  },
+  {
+    id: 5,
+    name: "Men's Slim-Fit Chinos",
+    price: "₹1,899",
+    imageUrl: "/men2.jpg",
+    category: "men",
+  },
+  {
+    id: 6,
+    name: "Women's High-Waist Jeans",
+    price: "₹1,999",
+    imageUrl: "/placeholder.jpg",
+    category: "women",
+  },
+  {
+    id: 7,
+    name: "Kid's Cartoon T-Shirt",
+    price: "₹599",
+    imageUrl: "/placeholder.jpg",
+    category: "kids",
+  },
+  {
+    id: 8,
+    name: "Okkio Selects Leather Jacket",
+    price: "₹4,999",
+    imageUrl: "/placeholder.jpg",
+    category: "okkio-selects",
+  },
+];

@@ -1,0 +1,65 @@
+### ⏳ Remaining Features (from your initial list)
+
+**Frontend Functionality (Requires Backend Integration):**
+
+*   **Homepage:**
+    *   Testimonials or customer trust indicators (UI not built yet)
+    *   Newsletter subscription form (UI not built yet)
+*   **Shop / Products Page:**
+    *   Actual product data fetching and display.
+    *   Functional filtering, sorting, pagination/infinite scroll.
+*   **Product Detail Page:**
+    *   Actual product data fetching.
+    *   Functional image gallery (zoom, swipe).
+    *   Functional reviews & ratings system.
+    *   Functional related products carousel.
+    *   Add to Cart / Wishlist functionality.
+*   **Cart Page:**
+    *   Actual cart state management (add, update, remove items persistently).
+    *   Integration with product data.
+*   **Checkout Page:**
+    *   Functional address input (saving to user profile/order).
+    *   Actual payment gateway integration (Razorpay, UPI, etc.).
+    *   Functional order summary based on real cart data.
+    *   Functional coupon application.
+    *   Place Order functionality (creating an order in the database).
+*   **User Account Page:**
+    *   Functional Login / Register (connecting to backend authentication).
+    *   Functional Profile details (fetching/updating user data).
+    *   Functional View past orders (fetching real order history).
+    *   Functional Wishlist (saving/retrieving wishlist items).
+    *   Functional Logout.
+*   **Admin Dashboard:**
+    *   Functional Add/edit/delete products (connecting to product API).
+    *   Functional Manage orders (fetching/updating order status).
+    *   Functional Sales dashboard/stats (fetching real sales data).
+    *   Functional Customer management.
+    *   Functional Bulk Import/Export.
+    *   Functional Low Stock Alert.
+    *   Functional Manage Categories.
+    *   Functional Product Image Upload.
+*   **Contact Us / Help Center:**
+    *   Dedicated contact form with submission functionality.
+    *   Chat support integration.
+*   **Policy Pages:** Populate with actual content.
+
+**Backend Development (Core for all functionality):**
+
+*   **Database Schemas:** Define Mongoose schemas for `User`, `Product`, `Order`, `Cart`, `Category`, etc.
+*   **API Endpoints:** Implement RESTful APIs for:
+    *   User authentication (register, login, logout, profile management).
+    *   Product management (CRUD for admin, fetching for shop/detail pages).
+    *   Cart management (add, update, remove items).
+    *   Order processing (create, view, update orders).
+    *   Image upload handling (e.g., using Multer and cloud storage like Cloudinary).
+*   **Authentication & Authorization:** Implement JWT for securing API routes (user and admin roles).
+*   **Payment Gateway Integration:** Server-side logic for processing payments.
+
+**Optional Smart Features (Backend & Frontend):**
+
+*   OTP login or Google Sign-in
+*   Invoice download after payment
+*   Email/SMS notifications
+*   Order tracking
+*   Dark/light mode
+*   Multilingual support
